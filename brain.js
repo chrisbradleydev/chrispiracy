@@ -16,7 +16,7 @@ const lowerThe = string => {
   return string.replace(/^The\s/, `the `)
 }
 
-const actionVictimKeys = [`event`, `group`, `thing`]
+const actionVictimKeys = [`event`, `group`, `people`, `thing`]
 const randomActionVictimKey = randomStringFromArray(actionVictimKeys)
 const filteredAction = keyIncludes(action, randomActionVictimKey)
 const filteredVictim = keyIncludes(victim, randomActionVictimKey)
@@ -62,7 +62,7 @@ const say = () => {
   scopedReason = scopedReason.replace(`[population]`, scopedCountry.population)
   scopedReason = scopedReason.replace(`[group-unknown]`, lowerThe(groupUnknown.name))
 
-  return `${whoDoneIt.name} ${action} ${scopedVictim} with ${scopedInstrument} ${scopedReason}.`
+  return `${whoDoneIt.name} ${action} ${scopedVictim} ${scopedInstrument} ${scopedReason}.`
 }
 
 console.log(say())

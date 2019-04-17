@@ -22,9 +22,9 @@ const reason = [
   { name: `Spain`, population: `Spanish` },
   { name: `Sweden`, population: `Swedish` },
   { name: `Switzerland`, population: `Swiss` },
+  { name: `The United States`, population: `American` },
   { name: `Turkey`, population: `Turkish` },
   { name: `Ukraine`, population: `Ukrainian` },
-  { name: `United States`, population: `American` },
 ]
 
 module.exports = reason
