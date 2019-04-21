@@ -11,13 +11,13 @@ const instrument = [
   `${randomStringFromArray(usingArray)} cabbages from outer space`,
   `${randomStringFromArray(usingArray)} chemtrails`,
   `${randomStringFromArray(usingArray)} dirty money`,
-  `${randomStringFromArray(usingArray)} financial backing from [who]`,
   `${randomStringFromArray(usingArray)} fluoridated water`,
-  `${randomStringFromArray(usingArray)} help from [who]`,
   `${randomStringFromArray(usingArray)} medications meant for sea horses`,
-  `${randomStringFromArray(usingArray)} the aid of [who]`,
   `${randomStringFromArray(usingArray)} vaccines`,
   `${randomStringFromArray(usingArray)} water soluble chemicals`,
+  `with financial backing from [who]`,
+  `with help from [who]`,
+  `with the aid of [who]`,
 ]
 
 module.exports = instrument

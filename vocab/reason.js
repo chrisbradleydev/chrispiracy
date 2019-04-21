@@ -28,6 +28,7 @@ const reason = [
   `for world ${randomStringFromArray(dominationArray)}`,
   `out of ${randomStringFromArray(emotionArray)}`,
   `to ${randomStringFromArray(concealArray)} the existence of [group-unknown]`,
+  `to ${randomStringFromArray(concealArray)} the size and shape of the earth`,
   `to ${randomStringFromArray(confuseArray)} the [population] ${randomStringFromArray(peopleArray)}`,
   `to ${randomStringFromArray(genocideArray)} the [population] ${randomStringFromArray(peopleArray)}`,
   `to ${randomStringFromArray(popularizeArray)} ${randomStringFromArray(disinformationArray)}`,
