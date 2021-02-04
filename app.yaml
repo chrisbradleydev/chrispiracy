@@ -13,5 +13,5 @@
 
 # [START gae_quickstart_yaml]
 # service: chrispiracy
-runtime: nodejs14
+runtime: nodejs10
 # [END gae_quickstart_yaml]
