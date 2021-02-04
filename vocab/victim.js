@@ -9,6 +9,7 @@ const victim = [
   { key: [`people`], name: `social justice warriors` },
   { key: [`people`], name: `the common man` },
   { key: [`thing`], name: `AIDS` },
+  { key: [`thing`], name: `COVID-19` },
   { key: [`thing`], name: `MK Ultra` },
   { key: [`thing`], name: `New Coke` },
   { key: [`thing`], name: `Saved By The Bell` },
