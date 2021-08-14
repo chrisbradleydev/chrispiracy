@@ -1,3 +1,3 @@
-const randomStringFromArray = words => words[Math.floor(Math.random() * words.length)]
+const randomStringFromArray = words => words[Math.floor(Math.random() * words.length)];
 
-module.exports = randomStringFromArray
+module.exports = randomStringFromArray;
