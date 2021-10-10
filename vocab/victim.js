@@ -3,6 +3,7 @@ const victim = [
     { key: [`event`], name: `JFK’s assassination` },
     { key: [`event`], name: `Paul McCartney's death` },
     { key: [`event`], name: `the 1984 Pepsi 400` },
+    { key: [`event`], name: `the 2021 October 4th Facebook outage` },
     { key: [`event`], name: `the Jonestown Massacre` },
     { key: [`event`], name: `the Oklahoma City bombing` },
     { key: [`event`], name: `the Philadelphia Experiment` },
